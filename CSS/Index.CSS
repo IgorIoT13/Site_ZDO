@@ -4,10 +4,21 @@ div{
 
 }
 
-
-.header {
-    width: 100%;
-    background: url(../img/1.jpg) no-repeat;
-    background: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%);
+.Baground {
+    background: url(../img/baground_All.jpg) no-repeat;
     background-size: 100%;
 }
+
+.header {
+   /* background: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%); */ 
+    background-size: 100%;
+}
+
+ul.hr {
+    margin: 0; 
+    padding: 4px; 
+}
+
+    ul.hr li {
+        display: inline;
+    }
