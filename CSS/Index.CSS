@@ -5,12 +5,12 @@ div{
 }
 
 .Baground {
-    background: url(../img/baground_All.jpg) no-repeat;
+    background-color: white;
     background-size: 100%;
 }
 
 .header {
-   /* background: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%); */ 
+    /*   */
     background-size: 100%;
 }
 
@@ -22,3 +22,30 @@ ul.hr {
     ul.hr li {
         display: inline;
     }
+
+div .Up-Fooder {
+    background: url(../img/Header_up_img.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    height: 450px;
+}
+    div.Up-Fooder h1 {
+        margin:200px;
+        text-align: center;
+        color: white;
+    }
+    div.Up-Fooder h3 {
+        margin-top: inherit;
+        text-align: center;
+        color:white;
+    }
+    div.Up-Fooder h4 {
+        margin-top:10px;
+        text-align: center;
+        color: white;
+    }
+    
